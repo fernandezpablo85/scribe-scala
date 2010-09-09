@@ -3,3 +3,19 @@ This is going to be Scribe on functional-steroids.
 I won't take this too seriously (hint: I didn't with scribe-java at first, and I'm not sure wether I do right now :P) but it will be a good way to actually see what *real* benefits does scala bring to the JVM table.
 
 Hopefully I'll learn something in the meantime :)
+
+Tech Choices:
+
+* Build Tool: Builder
+
+* Why? http://stackoverflow.com/questions/972006/whats-the-best-scala-build-system
+
+* Test Framework: ScalaTest
+
+* Why? cool docs
+
+* IDE: Eclipse
+
+* Why? Used to it
+
+
