@@ -1,3 +1,11 @@
+<VERY_IMPORTANT_STUFF_YOU_MUST_READ>
+
+This is **NOT** the production-ready version of scribe. For that go to https://github.com/fernandezpablo85/scribe-scala.
+
+Do **NOT** use this in your production code unless you know exactly what you're doing.
+
+</VERY_IMPORTANT_STUFF_YOU_MUST_READ>
+
 This is going to be Scribe on functional-steroids.
 
 I won't take this too seriously (hint: I didn't with scribe-java at first, and I'm not sure wether I do right now :P) but it will be a good way to actually see what *real* benefits does scala bring to the JVM table.
@@ -6,7 +14,7 @@ Hopefully I'll learn something in the meantime :)
 
 Tech Choices:
 
-* Build Tool: Builder
+* Build Tool: Buildr
 
 * Why? http://stackoverflow.com/questions/972006/whats-the-best-scala-build-system
 
