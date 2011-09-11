@@ -8,22 +8,14 @@ Do **NOT** use this in your production code unless you know exactly what you're 
 
 This is going to be Scribe on functional-steroids.
 
-I won't take this too seriously (hint: I didn't with scribe-java at first, and I'm not sure wether I do right now :P) but it will be a good way to actually see what *real* benefits does scala bring to the JVM table.
+I won't take this too seriously (hint: I didn't with scribe-java at first, and I'm not sure wether I do right now) but it will be a good way to actually see what *real* benefits does scala bring to the JVM table.
 
-Hopefully I'll learn something in the meantime :)
+Hopefully I'll learn something in the process :)
 
-Tech Choices:
+Tool Choices:
 
-* Build Tool: Buildr
-
-* Why? http://stackoverflow.com/questions/972006/whats-the-best-scala-build-system
+* Build Tool: sbt
 
 * Test Framework: ScalaTest
 
-* Why? cool docs
-
-* IDE: Eclipse
-
-* Why? Used to it
-
-
+* IDE: Idea
