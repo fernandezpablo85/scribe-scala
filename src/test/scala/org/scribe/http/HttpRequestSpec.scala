@@ -4,7 +4,6 @@ import org.scalatest._
 import org.scalatest.matchers._
 import java.io.InputStream
 
-
 /**
  * @author: pfernand
  */
