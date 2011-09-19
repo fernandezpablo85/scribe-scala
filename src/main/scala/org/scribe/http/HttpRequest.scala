@@ -21,14 +21,10 @@ class HttpRequest(method : Method, url : String)
     new HttpResponse(connection)
   }
 
-  case class HttpResponse(connection : HttpURLConnection)
+  private class HttpResponse(connection : HttpURLConnection)
   {
     val statusCode = connection.getResponseCode
+    val successful = (statusCode >= 200 && statusCode < 400)
     val stream = if (successful) connection.getInputStream else connection.getErrorStream
-
-    private def successful =
-    {
-      statusCode >= 200 && statusCode < 400
-    }
   }
 }
