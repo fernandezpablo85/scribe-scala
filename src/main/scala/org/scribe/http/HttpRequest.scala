@@ -3,7 +3,6 @@ package org.scribe.http
 import io.Source
 import java.net.{HttpURLConnection, URL}
 
-
 /**
  * @author: pfernand
  */
@@ -14,9 +13,7 @@ class HttpRequest(method : Method, url : String)
   lazy val bodyStream = response.stream
   lazy val body = Source.fromInputStream(bodyStream).getLines.mkString
 
-  lazy val response = getResponse
-
-  def getResponse =
+  private val response =
   {
     val connection = new URL(url).openConnection().asInstanceOf[HttpURLConnection]
     connection.setRequestMethod(method.name)
